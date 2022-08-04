@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Pizzaria/lib/mssql-jdbc-10.2.1.jre8.jar"
+    ]
+}

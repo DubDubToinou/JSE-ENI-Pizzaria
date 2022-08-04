@@ -1,0 +1,22 @@
+package fr.eni.pizzaria.dal;
+
+import java.util.List;
+
+public interface DAO<T>  {
+    
+    // public T selectById(int id) throws DALException;
+    
+    // public List<T> selectAll() throws DALException;
+
+    // public void update(T pizz) throws DALException;
+
+    public void insert(T element) throws DALException;
+
+    public List<T> selectAll() throws DALException;
+
+    // public void insertAliments(T aliments) throws DALException;
+
+    // public void delete(int idPizza) throws DALException;
+
+
+}
